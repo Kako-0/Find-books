@@ -6,7 +6,7 @@ function Header (){
             <Logo>FindBook</Logo>
             <List>
                 <li>
-                    <ItemList href="https://github.com/Kako-0" target="_blank">Sobre</ItemList>
+                    <ItemList href="https://github.com/Kako-0/Find-books" target="_blank">Sobre</ItemList>
                 </li>
                 <li>
                     <ItemList href="/">Contato</ItemList>
