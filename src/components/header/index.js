@@ -9,7 +9,7 @@ function Header (){
                     <ItemList href="https://github.com/Kako-0/Find-books" target="_blank">Sobre</ItemList>
                 </li>
                 <li>
-                    <ItemList href="/">Contato</ItemList>
+                    <ItemList href="https://www.linkedin.com/in/kayro-fran%C3%A7a-664365203/">Contato</ItemList>
                 </li>
             </List>
         </HeaderContainer>
