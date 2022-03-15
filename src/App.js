@@ -1,11 +1,11 @@
-import Header from './components/header/index'
-import Search from './components/search/index'
 import './assets/commun-styles/style.css'
+import CardBook from './components/cardBook';
+import { Home } from './pages/home';
 function App() {
   return (
     <>
-      <Header />
-      <Search />
+      {/*<Home />*/}
+      < CardBook />
     </>
   );
 }
