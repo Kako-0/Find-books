@@ -3,16 +3,17 @@ import styled from 'styled-components';
 const Card = styled.div`
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    width: 100%;
     margin: 1rem;
     padding: 1rem;
     background-color: #eee;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 `;  
 
 const DescriptionContainer = styled.div`
     display: flex;
     align-items: flex-start;
-    justify-content: center;
+    justify-content: flex-start;
     flex-direction: column;
     padding: 0 1rem;
 `;
