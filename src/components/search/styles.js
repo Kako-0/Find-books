@@ -11,6 +11,7 @@ const ContainerMain = styled.div`
   background: url(${bgMain}) center no-repeat;
   background-size: cover;
   opacity: 0.7;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
   `;
 
 const InputMain = styled.input`
