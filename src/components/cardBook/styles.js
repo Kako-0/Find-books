@@ -17,7 +17,10 @@ const DescriptionContainer = styled.div`
     padding: 0 1rem;
 `;
 
-const Title = styled.p`
+const Title = styled.a`
+    text-decoration: none;
+    text-emphasis: none;
+    color: #000;
     font-size: 1.2em;
     margin-bottom: 0.5rem;
 `;
