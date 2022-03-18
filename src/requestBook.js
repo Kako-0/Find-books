@@ -1,14 +1,12 @@
 import axios from "axios";
 
 const BOOKAPI = process.env.REACT_APP_BOOK_API;
-const url = "https://www.googleapis.com/books/v1/volumes?q="
-//https://www.googleapis.com/books/v1/volumes?q=clean+code&key=${BOOKAPI}
 
-
-
-const getBooks = async (setBooks) => {
+// Return a callback from any useState(param: setBooks)
+const getBooksFromApi = async (setBooks, searchValue) => {
+    const searchUrl =  searchValue.split(' ').join('+');
     try {
-        const books = await axios.get(`https://www.googleapis.com/books/v1/volumes?q=clean+code&key=${BOOKAPI}`)
+        const books = await axios.get(`https://www.googleapis.com/books/v1/volumes?q=${searchUrl}&key=${BOOKAPI}`)
 
         return setBooks(books.data.items);
     } catch (error) {
@@ -17,4 +15,4 @@ const getBooks = async (setBooks) => {
         return setBooks([]);
 }
 
-export default getBooks;
+export default getBooksFromApi;
